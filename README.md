@@ -1,4 +1,4 @@
-# Spectral Repair · НИИ-101
+# Spectral Repair · NII-101
 
 [Русский](README.ru.md) · [Demo](docs/demo/README.md) · [Release checks](docs/RELEASE_CHECKS.md)
 
