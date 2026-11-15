@@ -1,0 +1,1492 @@
+[
+  {
+    "name": "absl-py",
+    "version": "2.4.0",
+    "license": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "absl_py-2.4.0.dist-info/licenses/AUTHORS",
+      "absl_py-2.4.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "accelerate",
+    "version": "1.12.0",
+    "license": "Apache",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "accelerate-1.12.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "ace-step",
+    "version": "1.5.0",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "ace_step-1.5.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "aiofiles",
+    "version": "24.1.0",
+    "license": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "aiofiles-24.1.0.dist-info/licenses/LICENSE",
+      "aiofiles-24.1.0.dist-info/licenses/NOTICE"
+    ]
+  },
+  {
+    "name": "aiohappyeyeballs",
+    "version": "2.6.1",
+    "license": "PSF-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Python Software Foundation License"
+    ],
+    "license_files": [
+      "aiohappyeyeballs-2.6.1.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "aiohttp",
+    "version": "3.13.3",
+    "license": "Apache-2.0 AND MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "aiohttp-3.13.3.dist-info/licenses/LICENSE.txt",
+      "aiohttp-3.13.3.dist-info/licenses/vendor/llhttp/LICENSE"
+    ]
+  },
+  {
+    "name": "aiosignal",
+    "version": "1.4.0",
+    "license": "Apache 2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "aiosignal-1.4.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "annotated-doc",
+    "version": "0.0.4",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "annotated_doc-0.0.4.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "annotated-types",
+    "version": "0.7.0",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "annotated_types-0.7.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "anyio",
+    "version": "4.12.1",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "anyio-4.12.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "attrs",
+    "version": "25.4.0",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "attrs-25.4.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "brotli",
+    "version": "1.2.0",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "brotli-1.2.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "certifi",
+    "version": "2026.1.4",
+    "license": "MPL-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+    ],
+    "license_files": [
+      "certifi-2026.1.4.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "cffi",
+    "version": "2.0.0",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "cffi-2.0.0.dist-info/licenses/AUTHORS",
+      "cffi-2.0.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.4.4",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "charset_normalizer-3.4.4.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "click",
+    "version": "8.3.1",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "click-8.3.1.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "contourpy",
+    "version": "1.3.3",
+    "license": "BSD 3-Clause License\n\n Copyright (c) 2021-2025, ContourPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n 1. Redistributions of source code must retain the above copyright notice, this\n    list of conditions and the following disclaimer.\n\n 2. Redistributions in binary form must reproduce the above copyright notice,\n    this list of conditions and the following disclaimer in the documentation\n    and/or other materials provided with the distribution.\n\n 3. Neither the name of the copyright holder nor the names of its\n    contributors may be used to endorse or promote products derived from\n    this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "contourpy-1.3.3.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "cuda-bindings",
+    "version": "12.9.4",
+    "license": "LicenseRef-NVIDIA-SOFTWARE-LICENSE",
+    "license_classifiers": [],
+    "license_files": [
+      "cuda_bindings-12.9.4.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "cuda-pathfinder",
+    "version": "1.3.3",
+    "license": "Apache-2.0",
+    "license_classifiers": [],
+    "license_files": [
+      "cuda_pathfinder-1.3.3.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "cycler",
+    "version": "0.12.1",
+    "license": "Copyright (c) 2015, matplotlib project\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of the matplotlib project nor the names of its\n  contributors may be used to endorse or promote products derived from\n  this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "cycler-0.12.1.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "diffusers",
+    "version": "0.37.1",
+    "license": "Apache 2.0 License",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "diffusers-0.37.1.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "diskcache",
+    "version": "5.6.3",
+    "license": "Apache 2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "diskcache-5.6.3.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "einops",
+    "version": "0.8.2",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "einops-0.8.2.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "einx",
+    "version": "0.3.0",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "einx-0.3.0.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "fastapi",
+    "version": "0.128.0",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "fastapi-0.128.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "ffmpy",
+    "version": "1.0.0",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": []
+  },
+  {
+    "name": "filelock",
+    "version": "3.20.3",
+    "license": "Unlicense",
+    "license_classifiers": [
+      "License :: OSI Approved :: The Unlicense (Unlicense)"
+    ],
+    "license_files": [
+      "filelock-3.20.3.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "flash_attn",
+    "version": "2.8.3+cu128torch2.10",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "flash_attn-2.8.3+cu128torch2.10.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "fonttools",
+    "version": "4.61.1",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "fonttools-4.61.1.dist-info/licenses/LICENSE",
+      "fonttools-4.61.1.dist-info/licenses/LICENSE.external"
+    ]
+  },
+  {
+    "name": "frozendict",
+    "version": "2.4.7",
+    "license": "LGPL v3",
+    "license_classifiers": [
+      "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)"
+    ],
+    "license_files": [
+      "frozendict-2.4.7.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "frozenlist",
+    "version": "1.8.0",
+    "license": "Apache-2.0",
+    "license_classifiers": [],
+    "license_files": [
+      "frozenlist-1.8.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "fsspec",
+    "version": "2026.1.0",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "fsspec-2026.1.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "gradio",
+    "version": "6.2.0",
+    "license": "Apache-2.0",
+    "license_classifiers": [],
+    "license_files": [
+      "gradio-6.2.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "gradio_client",
+    "version": "2.0.2",
+    "license": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": []
+  },
+  {
+    "name": "groovy",
+    "version": "0.1.2",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "groovy-0.1.2.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "grpcio",
+    "version": "1.78.0",
+    "license": "Apache-2.0",
+    "license_classifiers": [],
+    "license_files": [
+      "grpcio-1.78.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "h11-0.16.0.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "hf-xet",
+    "version": "1.2.0",
+    "license": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "hf_xet-1.2.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "httpcore",
+    "version": "1.0.9",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "httpcore-1.0.9.dist-info/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "httptools",
+    "version": "0.7.1",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "httptools-0.7.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "httpx",
+    "version": "0.28.1",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "httpx-0.28.1.dist-info/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "huggingface-hub",
+    "version": "0.36.0",
+    "license": "Apache",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "huggingface_hub-0.36.0.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "idna",
+    "version": "3.11",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "idna-3.11.dist-info/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "importlib_metadata",
+    "version": "8.7.1",
+    "license": "Apache-2.0",
+    "license_classifiers": [],
+    "license_files": [
+      "importlib_metadata-8.7.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "Jinja2",
+    "version": "3.1.6",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "jinja2-3.1.6.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "kiwisolver",
+    "version": "1.4.9",
+    "license": "=========================\n The Kiwi licensing terms\n=========================\nKiwi is licensed under the terms of the Modified BSD License (also known as\nNew or Revised BSD), as follows:\n\nCopyright (c) 2013-2025, Nucleic Development Team\n\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this\nlist of conditions and the following disclaimer.\n\nRedistributions in binary form must reproduce the above copyright notice, this\nlist of conditions and the following disclaimer in the documentation and/or\nother materials provided with the distribution.\n\nNeither the name of the Nucleic Development Team nor the names of its\ncontributors may be used to endorse or promote products derived from this\nsoftware without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nAbout Kiwi\n----------\nChris Colbert began the Kiwi project in December 2013 in an effort to\ncreate a blisteringly fast UI constraint solver. Chris is still the\nproject lead.\n\nThe Nucleic Development Team is the set of all contributors to the Nucleic\nproject and its subprojects.\n\nThe core team that coordinates ",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "kiwisolver-1.4.9.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "lightning",
+    "version": "2.6.1",
+    "license": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "lightning-2.6.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "lightning-utilities",
+    "version": "0.15.2",
+    "license": "Apache-2.0",
+    "license_classifiers": [],
+    "license_files": [
+      "lightning_utilities-0.15.2.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "llvmlite",
+    "version": "0.46.0",
+    "license": "BSD-2-Clause AND Apache-2.0 WITH LLVM-exception",
+    "license_classifiers": [],
+    "license_files": [
+      "llvmlite-0.46.0.dist-info/licenses/LICENSE",
+      "llvmlite-0.46.0.dist-info/licenses/LICENSE.thirdparty"
+    ]
+  },
+  {
+    "name": "loguru",
+    "version": "0.7.3",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": []
+  },
+  {
+    "name": "lycoris_lora",
+    "version": "3.4.0",
+    "license": "Apache-2.0",
+    "license_classifiers": [],
+    "license_files": [
+      "lycoris_lora-3.4.0.dist-info/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "Markdown",
+    "version": "3.10.1",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "markdown-3.10.1.dist-info/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "markdown-it-py",
+    "version": "4.0.0",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "markdown_it_py-4.0.0.dist-info/licenses/LICENSE",
+      "markdown_it_py-4.0.0.dist-info/licenses/LICENSE.markdown-it"
+    ]
+  },
+  {
+    "name": "MarkupSafe",
+    "version": "3.0.3",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "markupsafe-3.0.3.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "matplotlib",
+    "version": "3.10.8",
+    "license": "License agreement for matplotlib versions 1.3.0 and later\n =========================================================\n\n 1. This LICENSE AGREEMENT is between the Matplotlib Development Team\n (\"MDT\"), and the Individual or Organization (\"Licensee\") accessing and\n otherwise using matplotlib software in source or binary form and its\n associated documentation.\n\n 2. Subject to the terms and conditions of this License Agreement, MDT\n hereby grants Licensee a nonexclusive, royalty-free, world-wide license\n to reproduce, analyze, test, perform and/or display publicly, prepare\n derivative works, distribute, and otherwise use matplotlib\n alone or in any derivative version, provided, however, that MDT's\n License Agreement and MDT's notice of copyright, i.e., \"Copyright (c)\n 2012- Matplotlib Development Team; All Rights Reserved\" are retained in\n matplotlib  alone or in any derivative version prepared by\n Licensee.\n\n 3. In the event Licensee prepares a derivative work that is based on or\n incorporates matplotlib or any part thereof, and wants to\n make the derivative work available to others as provided herein, then\n Licensee hereby agrees to include in any such work a brief summary of\n the changes made to matplotlib .\n\n 4. MDT is making matplotlib available to Licensee on an \"AS\n IS\" basis.  MDT MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\n IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, MDT MAKES NO AND\n DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\n FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF MATPLOTLIB\n WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n 5. MDT SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF MATPLOTLIB\n  FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR\n LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING\n MATPLOTLIB , OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF\n THE POSSIBILITY THEREOF.\n\n 6. This License Agreement will automatically terminate upon a material\n breach of its terms and conditions.\n\n 7. Nothing",
+    "license_classifiers": [
+      "License :: OSI Approved :: Python Software Foundation License"
+    ],
+    "license_files": [
+      "matplotlib-3.10.8.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "mdurl",
+    "version": "0.1.2",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "mdurl-0.1.2.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "modelscope",
+    "version": "1.34.0",
+    "license": "Apache-2.0",
+    "license_classifiers": [],
+    "license_files": [
+      "modelscope-1.34.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "mpmath",
+    "version": "1.3.0",
+    "license": "BSD",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "mpmath-1.3.0.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "multidict",
+    "version": "6.7.1",
+    "license": "Apache License 2.0",
+    "license_classifiers": [],
+    "license_files": [
+      "multidict-6.7.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "nano-vllm",
+    "version": "0.2.0",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "nano_vllm-0.2.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "networkx",
+    "version": "3.6.1",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "networkx-3.6.1.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "nii101-spectral-repair",
+    "version": "0.1.0",
+    "license": "",
+    "license_classifiers": [],
+    "license_files": []
+  },
+  {
+    "name": "numba",
+    "version": "0.63.1",
+    "license": "BSD",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "numba-0.63.1.dist-info/licenses/LICENSE",
+      "numba-0.63.1.dist-info/licenses/LICENSES.third-party"
+    ]
+  },
+  {
+    "name": "numpy",
+    "version": "2.3.5",
+    "license": "Copyright (c) 2005-2025, NumPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are\n met:\n\n     * Redistributions of source code must retain the above copyright\n        notice, this list of conditions and the following disclaimer.\n\n     * Redistributions in binary form must reproduce the above\n        copyright notice, this list of conditions and the following\n        disclaimer in the documentation and/or other materials provided\n        with the distribution.\n\n     * Neither the name of the NumPy Developers nor the names of any\n        contributors may be used to endorse or promote products derived\n        from this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\n LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n ----\n\n The NumPy repository and source distributions bundle several libraries that are\n compatibly licensed.  We list these here.\n\n Name: lapack-lite\n Files: numpy/linalg/lapack_lite/*\n License: BSD-3-Clause\n   For details, see numpy/linalg/lapack_lite/LICENSE.txt\n\n Name: dragon4\n Files: numpy/_core/src/multiarray/dragon4.c\n License: MIT\n   For license text, see numpy/_core/src/multiarray/dragon4.c\n\n Name: libdivide\n Files: num",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "numpy-2.3.5.dist-info/LICENSE.txt",
+      "numpy/_core/include/numpy/random/LICENSE.txt",
+      "numpy/ma/LICENSE"
+    ]
+  },
+  {
+    "name": "nvidia-cublas-cu12",
+    "version": "12.8.4.1",
+    "license": "NVIDIA Proprietary Software",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_cublas_cu12-12.8.4.1.dist-info/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-cuda-cupti-cu12",
+    "version": "12.8.90",
+    "license": "NVIDIA Proprietary Software",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_cuda_cupti_cu12-12.8.90.dist-info/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-cuda-nvrtc-cu12",
+    "version": "12.8.93",
+    "license": "NVIDIA Proprietary Software",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_cuda_nvrtc_cu12-12.8.93.dist-info/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-cuda-runtime-cu12",
+    "version": "12.8.90",
+    "license": "NVIDIA Proprietary Software",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_cuda_runtime_cu12-12.8.90.dist-info/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-cudnn-cu12",
+    "version": "9.10.2.21",
+    "license": "LicenseRef-NVIDIA-Proprietary",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_cudnn_cu12-9.10.2.21.dist-info/licenses/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-cufft-cu12",
+    "version": "11.3.3.83",
+    "license": "NVIDIA Proprietary Software",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_cufft_cu12-11.3.3.83.dist-info/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-cufile-cu12",
+    "version": "1.13.1.3",
+    "license": "NVIDIA Proprietary Software",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_cufile_cu12-1.13.1.3.dist-info/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-curand-cu12",
+    "version": "10.3.9.90",
+    "license": "NVIDIA Proprietary Software",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_curand_cu12-10.3.9.90.dist-info/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-cusolver-cu12",
+    "version": "11.7.3.90",
+    "license": "NVIDIA Proprietary Software",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_cusolver_cu12-11.7.3.90.dist-info/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-cusparse-cu12",
+    "version": "12.5.8.93",
+    "license": "NVIDIA Proprietary Software",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_cusparse_cu12-12.5.8.93.dist-info/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-cusparselt-cu12",
+    "version": "0.7.1",
+    "license": "NVIDIA Proprietary Software",
+    "license_classifiers": [],
+    "license_files": [
+      "nvidia/cusparselt/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "nvidia-nccl-cu12",
+    "version": "2.27.5",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_nccl_cu12-2.27.5.dist-info/licenses/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-nvjitlink-cu12",
+    "version": "12.8.93",
+    "license": "NVIDIA Proprietary Software",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_nvjitlink_cu12-12.8.93.dist-info/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-nvshmem-cu12",
+    "version": "3.4.5",
+    "license": "LicenseRef-NVIDIA-Proprietary",
+    "license_classifiers": [],
+    "license_files": [
+      "nvidia_nvshmem_cu12-3.4.5.dist-info/licenses/License.txt"
+    ]
+  },
+  {
+    "name": "nvidia-nvtx-cu12",
+    "version": "12.8.90",
+    "license": "Apache 2.0",
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ],
+    "license_files": [
+      "nvidia_nvtx_cu12-12.8.90.dist-info/License.txt"
+    ]
+  },
+  {
+    "name": "orjson",
+    "version": "3.11.5",
+    "license": "Apache-2.0 OR MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License",
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "orjson-3.11.5.dist-info/licenses/LICENSE-APACHE",
+      "orjson-3.11.5.dist-info/licenses/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "packaging",
+    "version": "26.0",
+    "license": "Apache-2.0 OR BSD-2-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "packaging-26.0.dist-info/licenses/LICENSE",
+      "packaging-26.0.dist-info/licenses/LICENSE.APACHE",
+      "packaging-26.0.dist-info/licenses/LICENSE.BSD",
+      "packaging/licenses/__init__.py",
+      "packaging/licenses/_spdx.py"
+    ]
+  },
+  {
+    "name": "pandas",
+    "version": "2.3.3",
+    "license": "BSD 3-Clause License\n\n Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team\n All rights reserved.\n\n Copyright (c) 2011-2023, Open source contributors.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n * Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n * Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n * Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n Copyright (c) 2010-2019 Keith Goodman\n Copyright (c) 2019 Bottleneck Developers\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n     * Redistributions of source code must retain the above copyright notice,\n       this lis",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "pandas-2.3.3.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "peft",
+    "version": "0.18.1",
+    "license": "Apache",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "peft-0.18.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "pillow",
+    "version": "12.1.0",
+    "license": "MIT-CMU",
+    "license_classifiers": [],
+    "license_files": [
+      "pillow-12.1.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "propcache",
+    "version": "0.4.1",
+    "license": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "propcache-0.4.1.dist-info/licenses/LICENSE",
+      "propcache-0.4.1.dist-info/licenses/NOTICE"
+    ]
+  },
+  {
+    "name": "protobuf",
+    "version": "6.33.5",
+    "license": "3-Clause BSD License",
+    "license_classifiers": [],
+    "license_files": [
+      "protobuf-6.33.5.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "psutil",
+    "version": "7.2.1",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "psutil-7.2.1.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "pycparser",
+    "version": "3.0",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "pycparser-3.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "pydantic",
+    "version": "2.12.5",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "pydantic-2.12.5.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "pydantic_core",
+    "version": "2.41.5",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "pydantic_core-2.41.5.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "pydub",
+    "version": "0.25.1",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "pydub-0.25.1.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "Pygments",
+    "version": "2.19.2",
+    "license": "BSD-2-Clause",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "pygments-2.19.2.dist-info/licenses/AUTHORS",
+      "pygments-2.19.2.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.3.2",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "pyparsing-3.3.2.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0.post0",
+    "license": "Dual License",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License",
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "python_dateutil-2.9.0.post0.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "python-dotenv",
+    "version": "1.2.1",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "python_dotenv-1.2.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "python-multipart",
+    "version": "0.0.22",
+    "license": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "python_multipart-0.0.22.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "pytorch-lightning",
+    "version": "2.6.1",
+    "license": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "pytorch_lightning-2.6.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "pytorch-wavelets",
+    "version": "1.3.0",
+    "license": "Free To Use",
+    "license_classifiers": [
+      "License :: Free To Use But Restricted"
+    ],
+    "license_files": [
+      "pytorch_wavelets-1.3.0.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "pytz",
+    "version": "2025.2",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "pytz-2025.2.dist-info/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "PyWavelets",
+    "version": "1.9.0",
+    "license": "MIT AND BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "pywavelets-1.9.0.dist-info/licenses/LICENSE",
+      "pywavelets-1.9.0.dist-info/licenses/licenses_bundled/LICENSE_numpy.txt",
+      "pywavelets-1.9.0.dist-info/licenses/licenses_bundled/LICENSE_scipy.txt"
+    ]
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "pyyaml-6.0.3.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "regex",
+    "version": "2026.1.15",
+    "license": "Apache-2.0 AND CNRI-Python",
+    "license_classifiers": [],
+    "license_files": [
+      "regex-2026.1.15.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "requests",
+    "version": "2.32.5",
+    "license": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "requests-2.32.5.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "rich",
+    "version": "14.3.1",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "rich-14.3.1.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "safehttpx",
+    "version": "0.1.7",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "safehttpx-0.1.7.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "safetensors",
+    "version": "0.7.0",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "safetensors-0.7.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "scipy",
+    "version": "1.17.0",
+    "license": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions\n are met:\n\n 1. Redistributions of source code must retain the above copyright\n    notice, this list of conditions and the following disclaimer.\n\n 2. Redistributions in binary form must reproduce the above\n    copyright notice, this list of conditions and the following\n    disclaimer in the documentation and/or other materials provided\n    with the distribution.\n\n 3. Neither the name of the copyright holder nor the names of its\n    contributors may be used to endorse or promote products derived\n    from this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\n LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n ----\n\n This binary distribution of SciPy can also bundle the following software\n (depending on the build):\n\n\n Name: OpenBLAS\n Files: scipy.libs/libscipy_openblas*.so\n Description: bundled as a dynamically linked library\n Availability: https://github.com/OpenMathLib/OpenBLAS/\n License: BSD-3-Clause\n   Copyright (c) 2011-2014, The OpenBLAS Project\n   All rights reserved.\n\n   Redistribution and use in source and binary forms, with or without\n",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "scipy-1.17.0.dist-info/LICENSE.txt",
+      "scipy/_lib/_uarray/LICENSE"
+    ]
+  },
+  {
+    "name": "semantic-version",
+    "version": "2.10.0",
+    "license": "BSD",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "semantic_version-2.10.0.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "setuptools",
+    "version": "71.1.0",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "setuptools-71.1.0.dist-info/LICENSE",
+      "setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+      "setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+      "setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE",
+      "setuptools/_vendor/importlib_resources-6.4.0.dist-info/LICENSE",
+      "setuptools/_vendor/inflect-7.3.1.dist-info/LICENSE",
+      "setuptools/_vendor/jaraco.context-5.3.0.dist-info/LICENSE",
+      "setuptools/_vendor/jaraco.functools-4.0.1.dist-info/LICENSE",
+      "setuptools/_vendor/jaraco.text-3.12.1.dist-info/LICENSE",
+      "setuptools/_vendor/more_itertools-10.3.0.dist-info/LICENSE",
+      "setuptools/_vendor/packaging-24.1.dist-info/LICENSE",
+      "setuptools/_vendor/platformdirs-4.2.2.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/tomli-2.0.1.dist-info/LICENSE",
+      "setuptools/_vendor/typeguard-4.3.0.dist-info/LICENSE",
+      "setuptools/_vendor/typing_extensions-4.12.2.dist-info/LICENSE",
+      "setuptools/_vendor/wheel-0.43.0.dist-info/LICENSE.txt",
+      "setuptools/_vendor/zipp-3.19.2.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "shellingham",
+    "version": "1.5.4",
+    "license": "ISC License",
+    "license_classifiers": [
+      "License :: OSI Approved :: ISC License (ISCL)"
+    ],
+    "license_files": [
+      "shellingham-1.5.4.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "six-1.17.0.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "soundfile",
+    "version": "0.13.1",
+    "license": "BSD 3-Clause License",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "_soundfile_data/COPYING",
+      "soundfile-0.13.1.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "starlette",
+    "version": "0.50.0",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "starlette-0.50.0.dist-info/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "sympy",
+    "version": "1.14.0",
+    "license": "BSD",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "sympy-1.14.0.dist-info/licenses/AUTHORS",
+      "sympy-1.14.0.dist-info/licenses/LICENSE",
+      "sympy/parsing/latex/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "tensorboard",
+    "version": "2.20.0",
+    "license": "Apache 2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "tensorboard-2.20.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "tensorboard-data-server",
+    "version": "0.7.2",
+    "license": "Apache 2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": []
+  },
+  {
+    "name": "tokenizers",
+    "version": "0.22.2",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": []
+  },
+  {
+    "name": "toml",
+    "version": "0.10.2",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "toml-0.10.2.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "tomlkit",
+    "version": "0.13.3",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "tomlkit-0.13.3.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "torch",
+    "version": "2.10.0+cu128",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "torch-2.10.0+cu128.dist-info/licenses/LICENSE",
+      "torch-2.10.0+cu128.dist-info/licenses/NOTICE"
+    ]
+  },
+  {
+    "name": "torchao",
+    "version": "0.16.0",
+    "license": "",
+    "license_classifiers": [],
+    "license_files": [
+      "torchao-0.16.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "torchaudio",
+    "version": "2.10.0+cu128",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "torchaudio-2.10.0+cu128.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "torchcodec",
+    "version": "0.10.0",
+    "license": "BSD 3-Clause License\n\nCopyright 2024 Meta\n\nRedistribution and use in source and binary forms, with or without modification,\nare permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice,this list\nof conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this\nlist of conditions and the following disclaimer in the documentation\nand/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its contributors may\nbe used to endorse or promote products derived from this software without specific\nprior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \u201cAS IS\u201d AND ANY\nEXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES\nOF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT\nSHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,\nINCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED\nTO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR\nBUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\nCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN\nANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH\nDAMAGE.\n",
+    "license_classifiers": [],
+    "license_files": [
+      "torchcodec-0.10.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "torchmetrics",
+    "version": "1.8.2",
+    "license": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "torchmetrics-1.8.2.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "torchvision",
+    "version": "0.25.0+cu128",
+    "license": "BSD",
+    "license_classifiers": [],
+    "license_files": [
+      "torchvision-0.25.0+cu128.dist-info/LICENSE"
+    ]
+  },
+  {
+    "name": "tqdm",
+    "version": "4.67.1",
+    "license": "MPL-2.0 AND MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License",
+      "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+    ],
+    "license_files": []
+  },
+  {
+    "name": "transformers",
+    "version": "4.57.6",
+    "license": "Apache 2.0 License",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "transformers-4.57.6.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "triton",
+    "version": "3.6.0",
+    "license": "",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "triton-3.6.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "typer",
+    "version": "0.21.1",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "typer-0.21.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "typer-slim",
+    "version": "0.21.2",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "typer_slim-0.21.2.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "typing-inspection",
+    "version": "0.4.2",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "typing_inspection-0.4.2.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.15.0",
+    "license": "PSF-2.0",
+    "license_classifiers": [],
+    "license_files": [
+      "typing_extensions-4.15.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "tzdata",
+    "version": "2025.3",
+    "license": "Apache-2.0",
+    "license_classifiers": [],
+    "license_files": [
+      "tzdata-2025.3.dist-info/licenses/LICENSE",
+      "tzdata-2025.3.dist-info/licenses/licenses/LICENSE_APACHE"
+    ]
+  },
+  {
+    "name": "urllib3",
+    "version": "2.6.3",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "urllib3-2.6.3.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "uvicorn",
+    "version": "0.40.0",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "uvicorn-0.40.0.dist-info/licenses/LICENSE.md"
+    ]
+  },
+  {
+    "name": "uvloop",
+    "version": "0.22.1",
+    "license": "MIT License",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License",
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "uvloop-0.22.1.dist-info/licenses/LICENSE-APACHE",
+      "uvloop-0.22.1.dist-info/licenses/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "vector-quantize-pytorch",
+    "version": "1.27.20",
+    "license": "MIT License\n\nCopyright (c) 2020 Phil Wang\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "vector_quantize_pytorch-1.27.20.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "watchfiles",
+    "version": "1.1.1",
+    "license": "MIT",
+    "license_classifiers": [
+      "License :: OSI Approved :: MIT License"
+    ],
+    "license_files": [
+      "watchfiles-1.1.1.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "websockets",
+    "version": "16.0",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "websockets-16.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "Werkzeug",
+    "version": "3.1.5",
+    "license": "BSD-3-Clause",
+    "license_classifiers": [],
+    "license_files": [
+      "werkzeug-3.1.5.dist-info/licenses/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "xxhash",
+    "version": "3.6.0",
+    "license": "BSD",
+    "license_classifiers": [
+      "License :: OSI Approved :: BSD License"
+    ],
+    "license_files": [
+      "xxhash-3.6.0.dist-info/licenses/LICENSE"
+    ]
+  },
+  {
+    "name": "yarl",
+    "version": "1.22.0",
+    "license": "Apache-2.0",
+    "license_classifiers": [
+      "License :: OSI Approved :: Apache Software License"
+    ],
+    "license_files": [
+      "yarl-1.22.0.dist-info/licenses/LICENSE",
+      "yarl-1.22.0.dist-info/licenses/NOTICE"
+    ]
+  },
+  {
+    "name": "zipp",
+    "version": "3.23.0",
+    "license": "MIT",
+    "license_classifiers": [],
+    "license_files": [
+      "zipp-3.23.0.dist-info/licenses/LICENSE"
+    ]
+  }
+]

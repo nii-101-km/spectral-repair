@@ -1,0 +1,65 @@
+<section class="nii-editor" data-current-tool="rectangle" aria-label="Интерактивный редактор спектральной маски">
+  <div class="nii-tools" role="toolbar" aria-label="Инструменты выделения">
+    <button type="button" data-tool="rectangle" aria-pressed="true">▭ Прямоугольник</button>
+    <button type="button" data-tool="brush" aria-pressed="false">Кисть</button>
+    <button type="button" data-tool="eraser" aria-pressed="false">Ластик</button>
+    <button type="button" data-tool="zoom" aria-pressed="false">Лупа</button>
+    <button type="button" data-tool="pan" aria-pressed="false">Перемещение</button>
+    <button type="button" data-tool="audition" aria-pressed="false">▭ Прослушать область</button>
+    <label>Действие <select data-role="operation"><option value="add">Добавить</option><option value="subtract">Вычесть</option></select></label>
+    <label>Каналы <select data-role="channel"><option value="0">Левый</option><option value="1">Правый</option><option value="both">Оба канала</option></select></label>
+    <label><input type="checkbox" data-role="overlay" checked> Показать маску</label>
+  </div>
+  <div class="nii-tools">
+    <label class="nii-brush-settings">Кисть, мс <input type="number" data-role="brush-ms" min="1" max="5000" step="10" value="200"></label>
+    <label class="nii-brush-settings">Кисть, Гц <input type="number" data-role="brush-hz" min="1" max="24000" step="10" value="300"></label>
+    <label>Мягкость, % <input type="number" data-role="soft" min="0" max="100" step="5" value="30"></label>
+    <button type="button" data-action="undo" disabled>Отменить</button>
+    <button type="button" data-action="redo" disabled>Повторить</button>
+    <button type="button" data-action="clear">Очистить</button>
+    <button type="button" data-action="invert">Инвертировать</button>
+    <button type="button" data-action="soften">Смягчить маску</button>
+  </div>
+  <div class="nii-history" role="tablist" aria-label="История восстановления" data-role="versions"></div>
+  <output class="nii-version-details" data-role="version-details" aria-live="polite"></output>
+  <div role="tabpanel" aria-label="Спектрограмма выбранной версии">
+    <div class="nii-plot-wrap">
+      <canvas tabindex="0" aria-label="Спектрограмма: рисуйте мышью. Колесо — время, Shift и колесо — частота. Ctrl Z — отменить."></canvas>
+      <div class="nii-playheads" data-role="playheads"></div>
+    </div>
+    <div class="nii-seek-ruler" data-role="seek-ruler" role="slider" tabindex="0"
+         aria-label="Позиция воспроизведения на спектрограмме" aria-orientation="horizontal"
+         aria-valuemin="0" aria-valuemax="0" aria-valuenow="0" aria-disabled="true">
+      <span class="nii-seek-thumb" data-role="seek-thumb"></span>
+    </div>
+    <div class="nii-playback-info">
+      <output data-role="playback-position" aria-live="off">0.00 с</output>
+      <span>Тяните линию или шкалу для перемотки · ← → шаг 0,1 с, Shift — 1 с</span>
+    </div>
+  </div>
+  <div class="nii-tools nii-view">
+    <span>Вид:</span>
+    <label>Начало, с <input type="number" data-view="t0" value="0" step="0.1"></label>
+    <label>Конец, с <input type="number" data-view="t1" value="16" step="0.1"></label>
+    <label>Низ, Гц <input type="number" data-view="f0" value="0" step="100"></label>
+    <label>Верх, Гц <input type="number" data-view="f1" value="24000" step="100"></label>
+    <button type="button" data-role="apply-view">Применить вид</button>
+    <button type="button" data-action="reset">Весь спектр</button>
+    <output data-role="position">Координаты мыши</output>
+  </div>
+  <p class="nii-hint">Маска общая для каналов. Колесо: масштаб времени; Shift + колесо: частота. Лупа: растянуть область. Перемещение: перетянуть вид.</p>
+  <div class="nii-tools">
+    <button type="button" data-role="play-selection">Прослушать выделенный диапазон</button>
+    <label><input type="checkbox" data-role="sync" checked> Синхронизировать позиции плееров</label>
+    <label><input type="checkbox" data-role="limit"> Только диапазон маски</label>
+    <audio data-role="audio" controls preload="metadata" aria-label="Звук выбранной версии"></audio>
+  </div>
+  <div class="nii-tools nii-audition">
+    <button type="button" data-role="audition-repeat">Повторить область</button>
+    <button type="button" data-role="audition-stop">Стоп области</button>
+    <audio data-role="audition-audio" controls preload="metadata" aria-label="Прослушивание области по времени и частоте"></audio>
+    <output data-role="audition-status" aria-live="polite">Выберите «Прослушать область» и растяните прямоугольник.</output>
+  </div>
+  <output data-role="status" aria-live="polite">Постройте спектрограмму.</output>
+  <script type="application/json" data-role="payload">${value}</script>
+</section>

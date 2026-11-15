@@ -1,0 +1,93 @@
+{
+  "format_version": 1,
+  "history": {
+    "damage": 4,
+    "repaint": 22,
+    "damage_run_id": "damage-0bff6272faa8",
+    "repaint_run_id": "2d437ead9034"
+  },
+  "request": {
+    "source": "audio/original-full.wav",
+    "offset": 45.0,
+    "duration": 60.0,
+    "start": 34.037333333333336,
+    "end": 34.431999999999995,
+    "low": 421.875,
+    "high": 1242.1875,
+    "feather": 0.025,
+    "defect": "band_loss",
+    "model": "acestep-v15-base",
+    "device": "cuda:1",
+    "blend": "complex",
+    "generation": {
+      "inference_steps": 32,
+      "guidance_scale": 2.5,
+      "shift": 1,
+      "seed": 3917560322,
+      "use_random_seed": false,
+      "task_type": "repaint",
+      "repaint_mode": "balanced",
+      "repaint_strength": 1,
+      "cover_noise_strength": 0,
+      "audio_cover_strength": 1,
+      "infer_method": "ode",
+      "sampler_mode": "euler",
+      "retake_seed": 202,
+      "retake_variance": 0,
+      "cfg_interval_start": 0,
+      "cfg_interval_end": 1,
+      "use_adg": false,
+      "dcw_enabled": false,
+      "chunk_mask_mode": "explicit",
+      "captions": "Raw instrumental alternative rock, grunge and garage rock,\nheavy distorted electric guitars, gritty overdriven riffs,\nlive acoustic drums, punchy bass guitar, energetic drum fills,\ncrashing cymbals, dynamic guitar solos, rough analog character,\nnatural room ambience, imperfect live performance,\nwide stereo image, detailed high frequencies,\ndeep bass, expressive dynamics, no vocals,\nno singing, no spoken words, no electronic instruments.",
+      "lyrics": "",
+      "vocal_language": "ru",
+      "bpm": 90,
+      "key_scale": "E minor",
+      "time_signature": "4"
+    },
+    "expert": "{}"
+  },
+  "sampler": {
+    "enabled": true,
+    "start_noise": 1.0,
+    "every": 4,
+    "temporal_lock": false,
+    "temporal_margin": 0.16,
+    "audio_condition": "repaint",
+    "guidance_algorithm": "apg"
+  },
+  "selection": {
+    "config": {
+      "sample_rate": 48000,
+      "fft_size": 2048,
+      "hop_length": 512,
+      "window": "hann"
+    },
+    "method": "ace",
+    "dsp": "frequency",
+    "notch_hz": 997,
+    "signature": "acc23aac3cf41971726e9e1613558eff1c66c683f06f6b7b9caf94ffc2b98b32",
+    "time_regions": [
+      [
+        34.037333333333336,
+        34.431999999999995
+      ]
+    ]
+  },
+  "mask_axes": {
+    "order": [
+      "time",
+      "frequency"
+    ],
+    "shape": [
+      5626,
+      1025
+    ],
+    "time_seconds": "frame * 512 / 48000 (relative to excerpt)",
+    "frequency_hz": "bin * 48000 / 2048",
+    "channels": "shared stereo mask",
+    "source_offset_seconds": 45.0,
+    "values": "float64 [0,1], exact saved mask"
+  }
+}

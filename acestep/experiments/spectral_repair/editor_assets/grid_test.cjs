@@ -1,0 +1,21 @@
+const fs = require('node:fs');
+const vm = require('node:vm');
+const assert = require('node:assert/strict');
+const source = fs.readFileSync(require('node:path').join(__dirname,'grid.js'),'utf8');
+const context = {module:{exports:{}}, btoa, atob, Uint8Array, Float32Array};
+vm.runInNewContext(source+'\nmodule.exports={SpectralGrid,spectralPoint,spectralBase64,spectralDecode};',context);
+const {SpectralGrid,spectralPoint,spectralBase64,spectralDecode}=context.module.exports;
+const make=()=>new SpectralGrid([101,51],.01,100,1);
+let tests=0;
+function test(name,fn){fn(); tests++; console.log('PASS',name);}
+test('rectangle reaches time zero and DC',()=>{const g=make();g.transaction(()=>g.rectangle({t:0,f:0},{t:.04,f:200},0));assert.equal(g.values.filter(v=>v>0).length,15);assert.equal(g.values[0],1);});
+test('last time frame and Nyquist',()=>{const g=make();g.transaction(()=>g.rectangle({t:1,f:5000},{t:1,f:5000},0));assert.equal(g.values[100*51+50],1);assert.equal(g.values.filter(v=>v>0).length,1);});
+test('multiple rectangles retain independent areas',()=>{const g=make();g.transaction(()=>g.rectangle({t:.1,f:100},{t:.2,f:200},0));g.transaction(()=>g.rectangle({t:.8,f:4000},{t:.9,f:4500},0));assert.equal(g.values[g.cell(.15,100)[0]*g.F+1],1);assert.equal(g.values[85*g.F+42],1);assert.equal(g.values[50*g.F+25],0);});
+test('continuous brush and partial eraser',()=>{const g=make();g.transaction(()=>g.stroke({t:.1,f:1000},{t:.9,f:1000},.1,500,.3));for(let t=10;t<=90;t++)assert.ok(g.values[t*g.F+10]>0);g.transaction(()=>g.stamp({t:.5,f:1000},.1,500,0,true));assert.equal(g.values[50*g.F+10],0);assert.ok(g.values[20*g.F+10]>0);});
+test('undo redo preserve exact soft cells',()=>{const g=make();g.transaction(()=>g.stamp({t:.5,f:1000},.2,600,.6));const first=Array.from(g.values);assert.ok(first.some(v=>v>0&&v<1));g.transaction(()=>g.values.fill(0));g.undo();assert.deepEqual(Array.from(g.values),first);g.redo();assert.ok(g.values.every(v=>v===0));g.undo();assert.deepEqual(Array.from(g.values),first);});
+test('inversion and smoothing are reversible',()=>{const g=make();g.transaction(()=>g.rectangle({t:.4,f:500},{t:.6,f:1500},0));const a=Array.from(g.values);g.transaction(()=>{for(let i=0;i<g.values.length;i++)g.values[i]=1-g.values[i];});g.undo();assert.deepEqual(Array.from(g.values),a);g.transaction(()=>g.soften());assert.ok(g.values.some(v=>v>0&&v<1));g.undo();assert.deepEqual(Array.from(g.values),a);});
+test('zoom pan mapping does not alter STFT indices',()=>{const g=make();const full=spectralPoint(500,400,{x:0,y:0,w:1000,h:500},{t0:0,t1:1,f0:0,f1:5000});const zoom=spectralPoint(500,375,{x:0,y:0,w:1000,h:500},{t0:.25,t1:.75,f0:500,f1:2500});assert.equal(full.t,zoom.t);assert.equal(full.f,zoom.f);assert.deepEqual(Array.from(g.cell(full.t,full.f)),Array.from(g.cell(zoom.t,zoom.f)));});
+test('float32 transport preserves grid and orientation',()=>{const g=make();g.values[123]=.7;g.values[g.values.length-1]=1;const decoded=spectralDecode(spectralBase64(g.values),g.values.length);assert.deepEqual(Array.from(decoded),Array.from(g.values));});
+test('empty and invalid brush cannot loop or change mask',()=>{const g=make();g.transaction(()=>g.stroke({t:0,f:0},{t:1,f:5000},0,100,0));assert.equal(g.past.length,0);assert.equal(g.bounds(),null);});
+test('smallest brush between bin centers still paints and erases',()=>{const g=make();const p={t:.105,f:1050};g.transaction(()=>g.stamp(p,.01,100,.3));assert.ok(g.bounds());g.transaction(()=>g.stamp(p,.01,100,.3,true));assert.equal(g.bounds(),null);});
+console.log(tests+' numerical frontend tests passed');

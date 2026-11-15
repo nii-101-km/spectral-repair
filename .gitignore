@@ -1,0 +1,38 @@
+# Local environment, models and sessions
+.venv
+/checkpoints
+/var/
+/experiments/
+/environment.freeze.txt
+.cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+/build/
+/dist/
+*.log
+.env
+.env.*
+!.env.example
+# User audio and model binaries are never staged implicitly.
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.tar.gz
+*.zip
+
+# Only the explicitly approved, metadata-cleaned demonstration audio.
+!/docs/demo/audio/candidate-22.wav
+!/docs/demo/audio/damage-4.wav
+!/docs/demo/audio/dsp-control.wav
+!/docs/demo/audio/original-excerpt.wav
+!/docs/demo/audio/original-full.wav
+!/docs/demo/audio/repaint-22.wav

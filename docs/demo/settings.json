@@ -1,0 +1,214 @@
+{
+  "reference": {
+    "kind": "user_recording_relative_reference",
+    "source": "audio/original-full.wav",
+    "offset_seconds": 45.0,
+    "duration_seconds": 60.0,
+    "channels": 2,
+    "sample_rate": 48000,
+    "pristine_reference": false,
+    "note": "Only injected damage is evaluated; intrinsic defects are unknown."
+  },
+  "region": {
+    "start": 34.037333333333336,
+    "end": 34.431999999999995,
+    "low": 421.875,
+    "high": 1242.1875,
+    "feather_time": 0.025,
+    "feather_hz": 50
+  },
+  "test_defect": "band_loss",
+  "seed_selection": {
+    "mode": "fixed",
+    "effective_seed": 3917560322
+  },
+  "stft": {
+    "sample_rate": 48000,
+    "fft_size": 2048,
+    "hop_length": 512,
+    "window": "hann"
+  },
+  "candidate": {
+    "model": "acestep-v15-base",
+    "parameters": {
+      "captions": "Raw instrumental alternative rock, grunge and garage rock,\nheavy distorted electric guitars, gritty overdriven riffs,\nlive acoustic drums, punchy bass guitar, energetic drum fills,\ncrashing cymbals, dynamic guitar solos, rough analog character,\nnatural room ambience, imperfect live performance,\nwide stereo image, detailed high frequencies,\ndeep bass, expressive dynamics, no vocals,\nno singing, no spoken words, no electronic instruments.",
+      "lyrics": "",
+      "inference_steps": 32,
+      "guidance_scale": 2.5,
+      "seed": 3917560322,
+      "use_random_seed": false,
+      "task_type": "repaint",
+      "repaint_mode": "balanced",
+      "repaint_strength": 1,
+      "dcw_enabled": false,
+      "shift": 1,
+      "cover_noise_strength": 0,
+      "audio_cover_strength": 1,
+      "infer_method": "ode",
+      "sampler_mode": "euler",
+      "retake_seed": 202,
+      "retake_variance": 0,
+      "cfg_interval_start": 0,
+      "cfg_interval_end": 1,
+      "use_adg": false,
+      "chunk_mask_mode": "explicit",
+      "vocal_language": "ru",
+      "bpm": 90,
+      "key_scale": "E minor",
+      "time_signature": "4",
+      "instruction": "Repaint the mask area based on the given conditions:",
+      "repainting_regions": [
+        [
+          33.87733333333334,
+          34.59199999999999
+        ]
+      ],
+      "repainting_start": 33.87733333333334,
+      "repainting_end": 34.59199999999999
+    },
+    "effective_guidance_scale": 2.5,
+    "generated_samples": 2880000,
+    "source_samples": 2880000,
+    "trailing_samples_removed": 0,
+    "vae_and_diffusion_seed": 3917560322,
+    "time_costs": {
+      "encoder_time_cost": 1.4643814589999238,
+      "diffusion_time_cost": 32.871853940998335,
+      "diffusion_per_step_time_cost": 1.027245435656198,
+      "total_time_cost": 37.27116667822702,
+      "offload_time_cost": 3.4663045406341553,
+      "vae_decode_time_cost": 2.9349312782287598
+    },
+    "spectral_sampler": {
+      "start_noise": 1.0,
+      "project_every": 4,
+      "projection_count": 8,
+      "correction_norms": [
+        68.0,
+        66.5,
+        64.0,
+        60.5,
+        56.25,
+        48.0,
+        70.0,
+        37.75
+      ],
+      "timesteps": [
+        1.0,
+        0.96875,
+        0.9375,
+        0.90625,
+        0.875,
+        0.84375,
+        0.8125,
+        0.78125,
+        0.75,
+        0.71875,
+        0.6875,
+        0.65625,
+        0.625,
+        0.59375,
+        0.5625,
+        0.53125,
+        0.5,
+        0.46875,
+        0.4375,
+        0.40625,
+        0.375,
+        0.34375,
+        0.3125,
+        0.28125,
+        0.25,
+        0.21875,
+        0.1875,
+        0.15625,
+        0.125,
+        0.09375,
+        0.0625,
+        0.03125,
+        0.0
+      ],
+      "cfg_algorithm": "native_APG",
+      "initial_fill": "source",
+      "apg": {
+        "implementation": "acestep.models.common.apg_guidance.apg_forward",
+        "dims": [
+          1
+        ],
+        "momentum": -0.75,
+        "eta": 0.0,
+        "norm_threshold": 2.5,
+        "reset_per_generation": true
+      },
+      "conditioning": "production_repaint_context",
+      "version": "v1.5",
+      "audio_condition": {
+        "mode": "repaint",
+        "hidden_frames": 18,
+        "total_frames": 1500,
+        "production_handler_context": true,
+        "explicit_time_mask": true,
+        "all_frequencies_in_selected_time": true,
+        "source_initialization_unchanged": true,
+        "spectral_reference_unchanged": true
+      },
+      "temporal_anchor": {
+        "enabled": false,
+        "margin_seconds": null,
+        "locked_frames": 0,
+        "total_frames": 1500,
+        "applications": 0,
+        "same_initial_noise": true
+      }
+    }
+  },
+  "repair": {
+    "lag_samples": 0,
+    "correlation": 0.9980314020813004,
+    "applied": false,
+    "peak_at_limit": false,
+    "zero_mask": false,
+    "outside_rms": 2.4703822176726537e-06,
+    "consistency_rms": 6.6832188049654895e-06,
+    "peak": 0.5930321707997933,
+    "mode": "complex"
+  },
+  "resources": {
+    "seconds": 45.61389431600037,
+    "process_peak_rss_mib": 6914.59765625,
+    "cuda_peak_allocated_mib": {
+      "0": 0.0,
+      "1": 9540.0654296875
+    }
+  },
+  "reference_metrics": {
+    "waveform_rmse": 0.004901928418366241,
+    "selected_spectral_rmse": 0.009222416731605303,
+    "selected_lsd_db": 9.142122220200495,
+    "selected_energy": 0.1592596930296139,
+    "outside_change_rms": 2.4703822176726537e-06,
+    "peak": 0.5930321707997933,
+    "transient_envelope_rmse": 2.0039187358446448e-05,
+    "stereo_correlation_error": 2.4280942113263926e-05
+  },
+  "listening_status": "awaiting_user",
+  "selection": {
+    "source": "interactive_editor",
+    "method": "ace",
+    "shape": [
+      5626,
+      1025
+    ],
+    "signature": "acc23aac3cf41971726e9e1613558eff1c66c683f06f6b7b9caf94ffc2b98b32",
+    "mask_sha256": "a2b3b14b038d4354acac4ea3bf4920b307f0c325694bfc32775ff477a329264b",
+    "dsp_algorithm": "frequency",
+    "notch_hz": 997,
+    "time_regions": [
+      [
+        34.037333333333336,
+        34.431999999999995
+      ]
+    ],
+    "same_mask_for_dsp_and_ace": true
+  }
+}

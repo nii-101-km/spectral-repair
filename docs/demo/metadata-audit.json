@@ -1,0 +1,85 @@
+{
+  "original-full.wav": {
+    "chunks": [
+      "fmt ",
+      "data"
+    ],
+    "sample_data_sha256": "2d234f00713efce4b353125738624d7e7bea95190573ac939cbb698ee6611b12",
+    "sample_bytes_preserved": true,
+    "sample_rate": 48000,
+    "frames": 5402880,
+    "channels": 2,
+    "subtype": "PCM_16",
+    "duration_seconds": 112.56
+  },
+  "original-excerpt.wav": {
+    "chunks": [
+      "fmt ",
+      "fact",
+      "data"
+    ],
+    "sample_data_sha256": "bf40be3b5a2e67a3910ca6ac8a8eb41563f494de9c9afe50dda4ec09a6b81e47",
+    "sample_bytes_preserved": true,
+    "sample_rate": 48000,
+    "frames": 2880000,
+    "channels": 2,
+    "subtype": "FLOAT",
+    "duration_seconds": 60.0
+  },
+  "damage-4.wav": {
+    "chunks": [
+      "fmt ",
+      "fact",
+      "data"
+    ],
+    "sample_data_sha256": "486efd68a17882ae795cbda0dafc7360359eb03ca2a3c630b36c2ba531bffbe8",
+    "sample_bytes_preserved": true,
+    "sample_rate": 48000,
+    "frames": 2880000,
+    "channels": 2,
+    "subtype": "FLOAT",
+    "duration_seconds": 60.0
+  },
+  "repaint-22.wav": {
+    "chunks": [
+      "fmt ",
+      "fact",
+      "data"
+    ],
+    "sample_data_sha256": "580b523d54740f50b85c97f57569c5e00898c2dafcf4d22de73c986d7770b06a",
+    "sample_bytes_preserved": true,
+    "sample_rate": 48000,
+    "frames": 2880000,
+    "channels": 2,
+    "subtype": "FLOAT",
+    "duration_seconds": 60.0
+  },
+  "candidate-22.wav": {
+    "chunks": [
+      "fmt ",
+      "fact",
+      "data"
+    ],
+    "sample_data_sha256": "eadd602b89c9b0b22c07ddd748bcb029694c69af2629a76741ac02b8621093a8",
+    "sample_bytes_preserved": true,
+    "sample_rate": 48000,
+    "frames": 2880000,
+    "channels": 2,
+    "subtype": "FLOAT",
+    "duration_seconds": 60.0
+  },
+  "dsp-control.wav": {
+    "chunks": [
+      "fmt ",
+      "fact",
+      "data"
+    ],
+    "sample_data_sha256": "9c210240bfeea31e4551632c4ccc2e76ec9d9dbc095427c72f7e64f4cac1935e",
+    "sample_bytes_preserved": true,
+    "sample_rate": 48000,
+    "frames": 2880000,
+    "channels": 2,
+    "subtype": "FLOAT",
+    "duration_seconds": 60.0
+  }
+}

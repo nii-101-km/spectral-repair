@@ -1,0 +1,485 @@
+{
+  "stft": {
+    "sample_rate": 48000,
+    "fft_size": 2048,
+    "hop_length": 512,
+    "window": "hann"
+  },
+  "duration": 4,
+  "platform": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+  "model": "acestep-v15-base",
+  "neural_status": "not_run",
+  "listening_status": "not_performed",
+  "reference": {
+    "kind": "synthetic_music",
+    "pristine_reference": true
+  },
+  "results": [
+    {
+      "case": "A_tone",
+      "methods": [
+        {
+          "method": "unprocessed",
+          "waveform_rmse": 0.02449523763237799,
+          "selected_spectral_rmse": 0.010141033099026328,
+          "selected_lsd_db": 20.398042126042423,
+          "selected_energy": 0.34578348598815883,
+          "outside_change_rms": 0.0,
+          "peak": 0.30292383192502625,
+          "transient_envelope_rmse": 0.00044454850713468604,
+          "stereo_correlation_error": 0.006039984557508538,
+          "resources": null,
+          "diagnostics": {}
+        },
+        {
+          "method": "spectral_interpolation",
+          "waveform_rmse": 0.0029422628011145265,
+          "selected_spectral_rmse": 0.0011933505344549756,
+          "selected_lsd_db": 17.43140542432351,
+          "selected_energy": 0.0031010964486136976,
+          "outside_change_rms": 2.9108086329251854e-06,
+          "peak": 0.25208628500290403,
+          "transient_envelope_rmse": 8.713416089166639e-06,
+          "stereo_correlation_error": 0.0004033631534017257,
+          "resources": {
+            "seconds": 0.1271640100003424,
+            "process_peak_rss_mib": 242.51171875,
+            "cuda_peak_allocated_mib": {}
+          },
+          "diagnostics": {}
+        },
+        {
+          "method": "dsp_control",
+          "waveform_rmse": 0.002476953443527041,
+          "selected_spectral_rmse": 0.000996759000752228,
+          "selected_lsd_db": 7.453796198233811,
+          "selected_energy": 0.009656272196489391,
+          "outside_change_rms": 4.452601291274395e-07,
+          "peak": 0.26887886512997705,
+          "transient_envelope_rmse": 1.602132991297845e-05,
+          "stereo_correlation_error": 0.0002244136818591036,
+          "resources": {
+            "seconds": 0.20076173699999345,
+            "process_peak_rss_mib": 243.015625,
+            "cuda_peak_allocated_mib": {}
+          },
+          "diagnostics": {
+            "lag_samples": 0,
+            "correlation": 0.0,
+            "applied": false,
+            "zero_mask": false,
+            "outside_rms": 4.452601291274395e-07,
+            "consistency_rms": 2.046108038535595e-06,
+            "peak": 0.26887886512997705,
+            "mode": "complex"
+          }
+        },
+        {
+          "method": "oracle_control_NOT_ACE",
+          "waveform_rmse": 0.0006183062908251267,
+          "selected_spectral_rmse": 8.508883181196625e-05,
+          "selected_lsd_db": 1.0130704855413162,
+          "selected_energy": 0.008625883161759749,
+          "outside_change_rms": 4.3978998880084827e-07,
+          "peak": 0.2704490763299804,
+          "transient_envelope_rmse": 3.213259432930889e-06,
+          "stereo_correlation_error": 1.601092395508985e-05,
+          "resources": null,
+          "diagnostics": {
+            "lag_samples": 0,
+            "correlation": 0.0,
+            "applied": false,
+            "zero_mask": false,
+            "outside_rms": 4.3978998880084827e-07,
+            "consistency_rms": 2.264406724538553e-06,
+            "peak": 0.2704490763299804,
+            "mode": "complex"
+          }
+        }
+      ]
+    },
+    {
+      "case": "B_burst",
+      "methods": [
+        {
+          "method": "unprocessed",
+          "waveform_rmse": 0.006540356724884995,
+          "selected_spectral_rmse": 0.0019243001827461716,
+          "selected_lsd_db": 50.70872211687833,
+          "selected_energy": 0.024655379583905526,
+          "outside_change_rms": 0.0,
+          "peak": 0.31482214622070376,
+          "transient_envelope_rmse": 6.12346432845948e-05,
+          "stereo_correlation_error": 0.030637045950515307,
+          "resources": null,
+          "diagnostics": {}
+        },
+        {
+          "method": "spectral_interpolation",
+          "waveform_rmse": 0.0011246388000043018,
+          "selected_spectral_rmse": 0.00033089059652177547,
+          "selected_lsd_db": 9.29304116169554,
+          "selected_energy": 1.206660857428111e-05,
+          "outside_change_rms": 5.2128964365981905e-08,
+          "peak": 0.25208628500290403,
+          "transient_envelope_rmse": 3.3350584857386357e-06,
+          "stereo_correlation_error": 0.0008379244541663056,
+          "resources": {
+            "seconds": 0.1197525970001152,
+            "process_peak_rss_mib": 292.234375,
+            "cuda_peak_allocated_mib": {}
+          },
+          "diagnostics": {}
+        },
+        {
+          "method": "dsp_control",
+          "waveform_rmse": 0.0011238699697112167,
+          "selected_spectral_rmse": 0.00033066402338419534,
+          "selected_lsd_db": 27.613211913362186,
+          "selected_energy": 1.2519434994764532e-07,
+          "outside_change_rms": 6.477664514168595e-08,
+          "peak": 0.25208628500290403,
+          "transient_envelope_rmse": 3.401396354481279e-06,
+          "stereo_correlation_error": 0.000858665191959096,
+          "resources": {
+            "seconds": 0.12686154199946031,
+            "process_peak_rss_mib": 292.23828125,
+            "cuda_peak_allocated_mib": {}
+          },
+          "diagnostics": {}
+        },
+        {
+          "method": "oracle_control_NOT_ACE",
+          "waveform_rmse": 1.2463199764952312e-06,
+          "selected_spectral_rmse": 3.336689862145089e-07,
+          "selected_lsd_db": 3.31178342625797,
+          "selected_energy": 0.0007107424233250467,
+          "outside_change_rms": 5.173043548204508e-08,
+          "peak": 0.25208628500290403,
+          "transient_envelope_rmse": 1.262332747763881e-11,
+          "stereo_correlation_error": 6.674755859137349e-09,
+          "resources": null,
+          "diagnostics": {
+            "lag_samples": 0,
+            "correlation": 0.0,
+            "applied": false,
+            "zero_mask": false,
+            "outside_rms": 5.173043548204508e-08,
+            "consistency_rms": 1.0024188505075793e-07,
+            "peak": 0.25208628500290403,
+            "mode": "complex"
+          }
+        }
+      ]
+    },
+    {
+      "case": "C_band_loss",
+      "methods": [
+        {
+          "method": "unprocessed",
+          "waveform_rmse": 0.003893885926375186,
+          "selected_spectral_rmse": 0.0010208492051489053,
+          "selected_lsd_db": 31.380881380854223,
+          "selected_energy": 0.005122426059566502,
+          "outside_change_rms": 0.0,
+          "peak": 0.25208628500290403,
+          "transient_envelope_rmse": 2.166032897878783e-05,
+          "stereo_correlation_error": 0.00042139376231897785,
+          "resources": null,
+          "diagnostics": {}
+        },
+        {
+          "method": "spectral_interpolation",
+          "waveform_rmse": 0.015548455487079078,
+          "selected_spectral_rmse": 0.004075186958966292,
+          "selected_lsd_db": 60.196531913071766,
+          "selected_energy": 0.12599161491799102,
+          "outside_change_rms": 9.843374822439041e-06,
+          "peak": 0.5620981230792744,
+          "transient_envelope_rmse": 0.00018291440202938762,
+          "stereo_correlation_error": 0.018674600786370843,
+          "resources": {
+            "seconds": 0.12550575500063132,
+            "process_peak_rss_mib": 307.98046875,
+            "cuda_peak_allocated_mib": {}
+          },
+          "diagnostics": {}
+        },
+        {
+          "method": "dsp_control",
+          "waveform_rmse": 0.0031073694514362274,
+          "selected_spectral_rmse": 0.0008139622202229767,
+          "selected_lsd_db": 13.596984610227839,
+          "selected_energy": 0.013188281973137468,
+          "outside_change_rms": 3.468461537809745e-06,
+          "peak": 0.25208628500290403,
+          "transient_envelope_rmse": 3.0393948621774223e-05,
+          "stereo_correlation_error": 6.127814362955064e-05,
+          "resources": {
+            "seconds": 0.12148126600004616,
+            "process_peak_rss_mib": 307.984375,
+            "cuda_peak_allocated_mib": {}
+          },
+          "diagnostics": {}
+        },
+        {
+          "method": "oracle_control_NOT_ACE",
+          "waveform_rmse": 6.834123628243511e-07,
+          "selected_spectral_rmse": 1.3147547358146877e-07,
+          "selected_lsd_db": 0.031583896727398385,
+          "selected_energy": 0.014288482901487237,
+          "outside_change_rms": 6.078388431103559e-08,
+          "peak": 0.25208628500290403,
+          "transient_envelope_rmse": 3.144731680310601e-09,
+          "stereo_correlation_error": 2.7904795141253658e-09,
+          "resources": null,
+          "diagnostics": {
+            "lag_samples": 0,
+            "correlation": 0.0,
+            "applied": false,
+            "zero_mask": false,
+            "outside_rms": 6.078388431103559e-08,
+            "consistency_rms": 6.827803016142304e-08,
+            "peak": 0.25208628500290403,
+            "mode": "complex"
+          }
+        }
+      ]
+    },
+    {
+      "case": "D_multiple",
+      "methods": [
+        {
+          "method": "unprocessed",
+          "waveform_rmse": 0.025353361369952802,
+          "selected_spectral_rmse": 0.006079337218772371,
+          "selected_lsd_db": 42.99287888678717,
+          "selected_energy": 0.37043886557206435,
+          "outside_change_rms": 0.0,
+          "peak": 0.31482214622070376,
+          "transient_envelope_rmse": 0.000448746093836893,
+          "stereo_correlation_error": 0.015102826333631691,
+          "resources": null,
+          "diagnostics": {}
+        },
+        {
+          "method": "spectral_interpolation",
+          "waveform_rmse": 0.00314987663588551,
+          "selected_spectral_rmse": 0.0007419340091674707,
+          "selected_lsd_db": 12.622126034777258,
+          "selected_energy": 0.0031131630571879787,
+          "outside_change_rms": 2.9236759827721383e-06,
+          "peak": 0.25208628500290403,
+          "transient_envelope_rmse": 9.329857182521356e-06,
+          "stereo_correlation_error": 0.0012475806367414632,
+          "resources": {
+            "seconds": 0.13020900699848426,
+            "process_peak_rss_mib": 335.65625,
+            "cuda_peak_allocated_mib": {}
+          },
+          "diagnostics": {}
+        },
+        {
+          "method": "dsp_control",
+          "waveform_rmse": 0.004991840512282656,
+          "selected_spectral_rmse": 0.0011879014456005485,
+          "selected_lsd_db": 23.086989213252156,
+          "selected_energy": 0.009550039034108962,
+          "outside_change_rms": 6.185050386010352e-06,
+          "peak": 0.25663375884171613,
+          "transient_envelope_rmse": 1.8566583405805797e-05,
+          "stereo_correlation_error": 0.0007805483504167432,
+          "resources": {
+            "seconds": 0.13253962800081354,
+            "process_peak_rss_mib": 335.67578125,
+            "cuda_peak_allocated_mib": {}
+          },
+          "diagnostics": {}
+        },
+        {
+          "method": "oracle_control_NOT_ACE",
+          "waveform_rmse": 0.0006183075469274251,
+          "selected_spectral_rmse": 4.928231290119872e-05,
+          "selected_lsd_db": 2.7627940808340306,
+          "selected_energy": 0.009336625585084794,
+          "outside_change_rms": 4.446957222178169e-07,
+          "peak": 0.2704490763299804,
+          "transient_envelope_rmse": 3.2132594329556844e-06,
+          "stereo_correlation_error": 1.6004255101731424e-05,
+          "resources": null,
+          "diagnostics": {
+            "lag_samples": 0,
+            "correlation": 0.0,
+            "applied": false,
+            "zero_mask": false,
+            "outside_rms": 4.446957222178169e-07,
+            "consistency_rms": 2.266624417422072e-06,
+            "peak": 0.2704490763299804,
+            "mode": "complex"
+          }
+        }
+      ]
+    },
+    {
+      "case": "E_clean",
+      "methods": [
+        {
+          "method": "unprocessed",
+          "waveform_rmse": 0.0,
+          "selected_spectral_rmse": 0.0,
+          "selected_lsd_db": 0.0,
+          "selected_energy": 0.014288435572700986,
+          "outside_change_rms": 0.0,
+          "peak": 0.25208628500290403,
+          "transient_envelope_rmse": 0.0,
+          "stereo_correlation_error": 0.0,
+          "resources": null,
+          "diagnostics": {}
+        },
+        {
+          "method": "spectral_interpolation",
+          "waveform_rmse": 0.015563688991984731,
+          "selected_spectral_rmse": 0.004079186241590526,
+          "selected_lsd_db": 60.1952433674336,
+          "selected_energy": 0.126054772990403,
+          "outside_change_rms": 9.829578722479512e-06,
+          "peak": 0.5621945255281102,
+          "transient_envelope_rmse": 0.00018305228062857185,
+          "stereo_correlation_error": 0.014781560094271673,
+          "resources": {
+            "seconds": 0.12279775699971651,
+            "process_peak_rss_mib": 347.55078125,
+            "cuda_peak_allocated_mib": {}
+          },
+          "diagnostics": {}
+        },
+        {
+          "method": "dsp_control",
+          "waveform_rmse": 0.0031073677811794933,
+          "selected_spectral_rmse": 0.0008139621955867237,
+          "selected_lsd_db": 13.596811229924867,
+          "selected_energy": 0.013188234457591045,
+          "outside_change_rms": 3.4673731474063367e-06,
+          "peak": 0.25208628500290403,
+          "transient_envelope_rmse": 3.039495874052981e-05,
+          "stereo_correlation_error": 6.127548569789809e-05,
+          "resources": {
+            "seconds": 0.11748157600050035,
+            "process_peak_rss_mib": 347.55078125,
+            "cuda_peak_allocated_mib": {}
+          },
+          "diagnostics": {}
+        },
+        {
+          "method": "oracle_control_NOT_ACE",
+          "waveform_rmse": 0.0,
+          "selected_spectral_rmse": 0.0,
+          "selected_lsd_db": 0.0,
+          "selected_energy": 0.014288435572700986,
+          "outside_change_rms": 0.0,
+          "peak": 0.25208628500290403,
+          "transient_envelope_rmse": 0.0,
+          "stereo_correlation_error": 0.0,
+          "resources": null,
+          "diagnostics": {
+            "lag_samples": 0,
+            "correlation": 0.0,
+            "applied": false,
+            "zero_mask": false,
+            "outside_rms": 0.0,
+            "consistency_rms": 0.0,
+            "peak": 0.25208628500290403,
+            "mode": "complex"
+          }
+        }
+      ]
+    }
+  ],
+  "module_sha256": {
+    "__init__.py": "6f9071b45ba5c99a8e405fe590062a16264f812b5109bf2ef56e39b8aae824c2",
+    "__main__.py": "ba9f0ec3e93439e3b286bd89a8fe7b99d0a58b6809c702393f2994cf287d9fb5",
+    "ace.py": "29ed62d816116bac877a813fa11ad5618ec11ec930c19a2e922ee976d6736401",
+    "ace_test.py": "37b20d492db7f993ece054d63703f5a3d92e6a2edd29c9962aae52a2f5798ed9",
+    "alignment.py": "4f61f226a351f35ab9b8155f6107deb97b383dcc2064698fe5ed796061618948",
+    "audio_condition.py": "381c0bc1ac135fc3aa5fd42ebb46db8be3c5bd24f1d6585204e4304c6aa06c24",
+    "audio_condition_test.py": "4e246290f0ccc9939b032d8d22b0d5590a230274cee83c84fafdc3600794484c",
+    "audition_test.py": "f39039bc2c399f23e608ea99e06b4569165684105849573f7dc4e5890c5885a0",
+    "base_guidance.py": "53f0cd297819308711b7c6dcbe7feecb8f0c7068717c041b36a758e548a58234",
+    "base_guidance_test.py": "b79c152d769a2e460e98f4f66290455de3c29421cdcdfc753ab787dafe6e4c29",
+    "baselines.py": "af1c1817f2681eb10a3321c56108cd5d52b3442e0698910ee9317fd1e0a4e292",
+    "benchmark.py": "481e201f51fdc136362d6886764726957dd1891cf58349f55fcc4f5661cd770b",
+    "core.py": "405ac1fcb5ae76523654dcf79791d34e8bab878267b72da2c6619f3d69810b62",
+    "core_test.py": "769a4c7d2ac2512506118b28e928c03a95d791471edc79d1bf9bade30039a6af",
+    "damage_preview.py": "ee526b6ff1b6df9e10a5e512963ccb32104db676e5ccf803e7c9f808a82809ac",
+    "damage_preview_test.py": "8b786166c558c3fb785b3a0a8635c324c181a0dbf96d80312967fea0b96aa4f1",
+    "dsp_controls.py": "eacd9b31050eb73c5be49554a55bcca284e96f78c3ed6fff55e102382496a251",
+    "editor_bindings.py": "ff442f73222c392c2c4711f14b07c2b51195c023d1656178d5cfffe9c293bee1",
+    "editor_components.py": "8f1f81b9b464dbddd7617dfb548641c9abda6326b56437d1f359425b67cc3549",
+    "editor_data.py": "e039ed1d31062023542e49b0ba891dea383d8e944978710bb2ee10665d420256",
+    "editor_frontend_test.py": "c512ef7f7e40dca414b485295258979f28e5beac340c571b7b915d284244d11e",
+    "editor_history.py": "9aa405ce58e36cfd3b7a3c6fece3c91e38a802118799164d67f37272d8d7c490",
+    "editor_history_test.py": "9b13b0fa1eb43540154d93564594a39c1e66eaf6f36c8af636e3ac122987b27f",
+    "editor_lab.py": "5c84e3c7be48077caf342e8efef01644cb58ac412e468b27d1ae8209eae56e60",
+    "editor_layout.py": "805cffce39a178f3982416b61e040ee164587b016d7ed2499f727fa7562aa30b",
+    "editor_layout_state.py": "08e745f015347f8c3b2f64584b0a7f203158d4cc2a12f52de1e0e9c99c44dfd8",
+    "editor_layout_test.py": "9f983c102d251a2e9810701d8639e7ecc0761a6b01ee9546f74379ed39f71000",
+    "editor_limits.py": "cb1368ab18ad5b7fd827f372bdb9b07568c499e08dd2bddc4c523f845819f874",
+    "editor_limits_test.py": "b827aa7c86a132d7b55719f84f306a15329642f2f312d3e7a20326363d3ce5b5",
+    "editor_mask.py": "674a6d6382fe603ddf6f72436b2c1e38de023bd6361001048b63071e2325525c",
+    "editor_runner.py": "d61d95aefab9bc82eb5b3e9c339d89b58ea84248ba6ca31245a2159d82d27eb4",
+    "editor_test.py": "b9697c18cf66d02adcc7bc7cdbc52ad46e4bc410a7dbeded2326f51a85026c2d",
+    "fixtures.py": "dc9ec0dd8e0c45c9b88ea3fa970af06d1d39de4e5d8e6904bd1c0e8ecf10be14",
+    "frequency_interpolation.py": "8dbc042b9b87820e9bf960bf7c0c3e5ac9db09c94af3ac49aefc60c3872fd479",
+    "frequency_interpolation_test.py": "c0affb959ee76ea295538b8d0b60ace599b55c06406ccce594332142563fa32f",
+    "history_boundary_test.py": "bc2209ac8b3ddee292a06c38bb516d68580588946617762a2904c98e45460ede",
+    "history_contracts.py": "3dc076244f434cab418558203955e42952f3f7efd6fd9eb365ef5bcc53532cc1",
+    "history_presentation.py": "52278ab9a044def056ef9a005d1d6a0351c94f8fe934ce4fb26711272772dae9",
+    "history_presentation_test.py": "9aa2828e1b03e23f08297898d8ddaf05ce4f6749fdfb89f76c0b289b3e64c955",
+    "history_previews.py": "bfc78da2b98510bf58b786c3ffa8255dc881c9d3166b0c273c1e17d901232fb4",
+    "history_store.py": "516f9a289f3f78713b401b86a1e99e5c8d2447296bc9a4cfe766d7037090d778",
+    "history_store_test.py": "f11500df44a102ea40f067c5a5c67097ee5bd0ed3fb59f1e16d84e915877312e",
+    "lab.py": "b754c47261f04d757ede5b2f25238ae95f33cbec668124635a79cde1d01a1a3a",
+    "lab_lifecycle_test.py": "681529ad3411a188d7d663b230b7dc63bd4362089650ceffc56af48505083a34",
+    "lab_parameters.py": "47614b3615289bf0904cdedffefc719fefada4b0ada4c928fa0b9765b7c32207",
+    "lab_runner.py": "a8c11ea5ea5f3d69f764d6f802d23ac0348362af7891365bfbc68617610e92d7",
+    "lab_test.py": "32db0e6d29e7a488c892045fa13a2a111aae15b32a87c928e6cce6815bf28dcd",
+    "launcher_bootstrap_test.py": "55340952524a859a46a6cf20cc72fbb7d19f027a0268a9d9292e6591273bddbe",
+    "metrics.py": "15e0ddca5503c2aa257f6487ddab824d02803cc3b24b1fefb6341b3634fd6e0c",
+    "phase_control.py": "d76a25e67217bfede96a85245066b047bd9ad678ab6e97041964e617d0c62841",
+    "phase_control_test.py": "75249d1d6066b8c54351c27ce4b0d6f74c598dc3384994402b99747d03960438",
+    "playhead_test.py": "bf2004bd520dd8d600998d735ab99761df9072188871409d908f9458971f5db8",
+    "projection.py": "d8bbbcaf104c414f2019d7ad452f99da1b1fd96007761687832c75b9b7f9d2f8",
+    "projection_adapter.py": "40fa6d3ef1bcd816c31ee2403fe9d5ff54ed526cb037a6debf93e9206612a164",
+    "projection_sampler.py": "ead19476bfc81f3ab317667bc80775df01149387a143c20b6f04a4a30e928899",
+    "projection_test.py": "9a6f9a93c1466cc8da892b4405258116a40643e492cb8ef6d63b702b06b1ae59",
+    "provider_cache.py": "16aa8524fc9c4ed081c85a794bf0ce1fa22616b1e7e43481a9fee989e382417e",
+    "provider_cache_test.py": "aa209aca7e0e1ece460b3b381458b5db77d442654ef6f5a940478b0fa96c00b5",
+    "random_seed_test.py": "93e02c61adeccd44f185ecc46062a7f47b71796239d20c29fa905f55ef64fda9",
+    "reference.py": "c1c3ccabf3c74714113bb46002c1f7f3c41ec0fead6d771f8ea5c0295f420cb3",
+    "reference_test.py": "a0314ba57fc02f4e0b28b6b344cc25832e51cb893d6850e9b4ac2244ce327f3a",
+    "repaint_condition.py": "bf9b8b12759eafa25c91bd36f22cfa7f49430de51f9979278ebd851b94dd6197",
+    "repaint_condition_test.py": "09d3dbdaae9b46fdf6fc4c670f50e498a6d2e84d5f3075e540ca0abc81224be1",
+    "repaint_controls.py": "3542cc5df702a4636cff795ce1e0c832d4071c60b8f10d56e5e0367fd6406d93",
+    "repaint_controls_test.py": "742179f031066b9d87260d3dbd60946a64e7a54f5230deec8b946ecab5f30764",
+    "run_adapters.py": "04d98be962e64a38576f15f6db26e7b2d13d4aec6fe14237a1d8101a66522f5b",
+    "run_contracts.py": "4ecc4eccad185ebaf6ac1f105f99097d58c7067cd1a71e416ea6b07a5631467c",
+    "run_contracts_test.py": "12286caad9dbc9ef8dcc73877db2452a5bd8b4e47143c50a33738124f789188c",
+    "run_preparation.py": "cc7ea4c90a524908546f96087de5e9f930031a90a7da900805def6d913fce832",
+    "run_preparation_test.py": "12479e167176fad43f074200b82806eb759106a8dbfdfa1e1ac56c1e5bb9f7a6",
+    "run_storage.py": "563f358b11d578333569ab3c23d458dbeeb49306838434508fcbc0fdabfa8ce0",
+    "spectral.py": "5d6a12aebc23dabda1a6c7d6e7e7a0bc5413dd566dc4c7fc4f1fe854ce4e0577",
+    "spectrogram_preview.py": "f64fd77db09bd66c6dc9e2b717e7ca110838b54e06f9c9f9f9f3824fd13aa912",
+    "telemetry.py": "0b8b5b34ce4cfa743f17919cd7fe0e044040b6b08b3f89b574f65943bf242cfd",
+    "temporal_anchor.py": "295712cf15dec5f991ffb15a412917c09b406183cc688f4339475da428c399c5",
+    "temporal_anchor_test.py": "a82d899f8b7c85916a7ace7103bf4684bcac4d9000728f17aa69a29928ffc34e",
+    "temporal_interpolation.py": "01f0833c86ef305ca3bad1a2d54b2b87183005ec62191e443fc930ae123c250a",
+    "temporal_interpolation_test.py": "9d698ae6e6c2a225483ae22ab68843ea6b13e5b15e92c00a03d8d94097c3b8fd",
+    "visualize.py": "2f47a05a45b4f2e18cc81ef1c24774c1e39ed19a683838c82b1fb9b85e5f6861"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "soundfile": "0.13.1"
+  },
+  "source_revision": "6c03a03c96e1d37969493b11f4e14f0545b1866d",
+  "gpu_driver_samples": []
+}

@@ -1,0 +1,32 @@
+{
+  "difference": "STFT(Y-X) = STFT(Y)-STFT(X); complex phase included",
+  "gain": "20log10(abs(STFT(Y)))-20log10(abs(STFT(X))); floor -80 dB re 1",
+  "waveform_rmse_vs_original": 0.004901928415364905,
+  "damaged_rmse_vs_original": 0.0029941575485045425,
+  "difference_energy_fraction_in_mask": 0.9984325394250477,
+  "difference_energy_fraction_outside_mask": 0.0015674605749520865,
+  "outside_time_support_max_difference": 0.0,
+  "mask_window_support_seconds": [
+    34.037333333333336,
+    34.43202083333333
+  ],
+  "stft_linearity_max_error": 3.1652145240680583e-17,
+  "figure_scale_db": [
+    -110,
+    -15
+  ],
+  "zoom_seconds": [
+    32.8,
+    35.6
+  ],
+  "zoom_hz": [
+    0,
+    2500
+  ],
+  "stft": {
+    "sample_rate": 48000,
+    "fft_size": 2048,
+    "hop_length": 512,
+    "window": "hann"
+  }
+}
