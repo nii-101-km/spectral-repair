@@ -6,8 +6,25 @@ import os
 from pathlib import Path
 import sys
 
+from loguru import logger
+
 
 ROOT = Path(__file__).resolve().parent
+
+
+def saved_inputs(session: dict) -> dict:
+    """Restore existing session files while allowing stale optional paths to be reselected."""
+    restored = {}
+    for key in ("source", "settings", "mask"):
+        value = session.get(key)
+        if value is None:
+            continue
+        if isinstance(value, str) and Path(value).is_file():
+            restored[key] = value
+        else:
+            logger.warning("Skipping unavailable saved {} file; select an existing file in the editor",
+                           key)
+    return restored
 
 
 def activate_imports() -> None:
@@ -30,7 +47,8 @@ def main() -> None:
                     session.get("backend", str(ROOT.parent / "ACE-Step-1.5"))),
                 "output": str(ROOT / "var" / "runs"),
                 "device": session.get("device", "cuda:1"), "port": session.get("port", 7863)}
-    for key in ("source", "settings", "mask", "offset", "duration"):
+    defaults.update(saved_inputs(session))
+    for key in ("offset", "duration"):
         if session.get(key) is not None:
             defaults[key] = session[key]
     arguments = [part for key, value in defaults.items() for part in (f"--{key}", str(value))]

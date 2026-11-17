@@ -1,4 +1,4 @@
-# Spectral Repair v0.1.0 · НИИ-101
+# Spectral Repair v0.1.1 · НИИ-101
 
 [English](README.md) · [Эксперимент](docs/demo/README.md) · [Проверки](docs/RELEASE_CHECKS.md)
 
